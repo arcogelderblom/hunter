@@ -12,6 +12,17 @@ hunter_add_version(
     PACKAGE_NAME
     Lua
     VERSION
+    "5.3.5"
+    URL
+    "https://github.com/cpp-pm/lua/archive/v5.3.5-p0.tar.gz"
+    SHA1
+    cda86ad41bceaee63aadec8df13a6ec480b327c8
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    Lua
+    VERSION
     "5.3.2"
     URL
     "https://github.com/hunter-packages/lua/archive/v5.3.2-p1.tar.gz"
@@ -64,6 +75,18 @@ hunter_add_version(
     "https://github.com/hunter-packages/lua/archive/v5.1.5-p2.tar.gz"
     SHA1
     cc804e53073686f31f59629dbc964538c60be521
+)
+
+# NOTE: Test '5.1.*' version with 'toluapp' package (!)
+hunter_add_version(
+    PACKAGE_NAME
+    Lua
+    VERSION
+    "5.1.5-p3"
+    URL
+    "https://github.com/hunter-packages/lua/archive/v5.1.5-p3.tar.gz"
+    SHA1
+    9732277f78be6be26633f3cd8e3f810d8431ed51
 )
 
 hunter_cacheable(Lua)
